@@ -5,7 +5,7 @@ Fonctionne sous Raspberry Pi 3 avec [RaspeberryPi OS avec Desktop à télécharg
 
 Système d'exploitation à installer avec Raspberry Pi Imager [selon les instructions ici](https://www.raspberrypi.com/software/)
 
-Une fois le système installé et démarré sur la Raspberry Pi connectée à In,ternet, il faut lancer un terminal et taper les commandes suviantes (le mot de passe est celui de l'utilisateur créé à l'installation, par défaut l'utilisateur est Pi et le mot de passe raspberry) :
+Une fois le système installé et démarré sur la Raspberry Pi connectée à Internet, il faut lancer un terminal et taper les commandes suviantes (le mot de passe est celui de l'utilisateur créé à l'installation, par défaut l'utilisateur est Pi et le mot de passe raspberry) :
 ````
 sudo apt update
 sudo apt upgrade
