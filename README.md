@@ -9,8 +9,14 @@ Une fois le système installé et démarré sur la Raspberry Pi connectée à In
 ````
 sudo apt update
 sudo apt upgrade
-sudo apt install puredata pd-ggee pd-zexy python3-rpi.gpio git htop
+sudo apt install puredata pd-ggee pd-zexy python3-rpi.gpio git htop libxdo3 gstreamer1.0-pipewire dpkg
 cd ~/Desktop
 git clone https://github.com/b01xy/Telephones-interactifs/
 pd -noadc -audiooutdev 2 Telephones-interactifs/telephones01.pd
+````
+Pour debug à distance, installation de Rustdesk
+
+````
+wget https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-armv7-sciter.deb
+sudo dpkg -i https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-armv7-sciter.deb
 ````
