@@ -12,7 +12,7 @@ sudo apt upgrade
 sudo apt install puredata pd-ggee pd-zexy python3-rpi.gpio git htop
 cd ~/Desktop
 git clone https://github.com/b01xy/Telephones-interactifs/
-pd -audioindev 0 -audiooutdev 2 Telephones-interactifs/telephones01.pd
+pd -pa -noadc -audiooutdev 2 Telephones-interactifs/telephones01.pd
 ````
 ![terminal](images/Terminal-pi.png)
 
