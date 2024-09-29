@@ -1,5 +1,9 @@
 # Telephones-interactifs
-Projet de téléphone interactif diffusant un message lorsque l'on décroche
+## Présentation
+
+Projet de téléphone interactif diffusant un message / un défi lorsque l'on décroche
+
+## Installation
 
 Fonctionne sous Raspberry Pi 3 avec [RaspeberryPi OS avec Desktop à télécharger ici](https://downloads.raspberrypi.com/raspios_armhf/images/raspios_armhf-2024-07-04/2024-07-04-raspios-bookworm-armhf.img.xz) 
 
@@ -16,13 +20,13 @@ pd -pa -noadc -audiooutdev 2 Telephones-interactifs/telephones01.pd
 ````
 ![terminal](images/Terminal-pi.png)
 
-Pour debug à distance, installation de Rustdesk
+En paramètres audio dans Pure Data on doit avoir Menu Media > On choisit Portaudio puis dans Paramètres Audio la carte bcm2835 en sortie, on décoche l'entrée
+![param](images/CapturePArametresAudioPd.png)
+
+## Pour debug à distance, installation de Rustdesk
 
 ````
 sudo apt install libxdo3 gstreamer1.0-pipewire dpkg
 wget https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-armv7-sciter.deb
 sudo dpkg -i https://github.com/rustdesk/rustdesk/releases/download/1.3.1/rustdesk-1.3.1-armv7-sciter.deb
 ````
-
-En paramètres audio dans Pure Data on doit avoir Menu Media > Paramètres Audio :
-![param](images/CapturePArametresAudioPd.png)
