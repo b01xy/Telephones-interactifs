@@ -13,14 +13,16 @@ Une fois le système installé et démarré sur la Raspberry Pi connectée à In
 ````
 sudo apt update
 sudo apt upgrade
-sudo apt install puredata pd-ggee pd-zexy python3-rpi.gpio git htop
+sudo apt install puredata pd-ggee pd-zexy pd*cyclone python3-rpi.gpio git htop
 cd ~/Desktop
 git clone https://github.com/b01xy/Telephones-interactifs/
-pd -pa -noadc -audiooutdev 2 Telephones-interactifs/telephones01.pd
+cd Telephones-interactifs/
+chmod +x installTelephones.sh
+./installTelephones.sh
 ````
 ![terminal](images/Terminal-pi.png)
 
-En paramètres audio dans Pure Data on doit avoir Menu Media > On choisit Portaudio puis dans Paramètres Audio la carte bcm2835 en sortie, on décoche l'entrée
+En paramètres audio dans Pure Data on doit avoir Menu Media > On choisit Alsa puis dans Paramètres Audio la carte bcm2835 en sortie, on décoche l'entrée, on met 120ms en buffer/délais
 ![param](images/CapturePArametresAudioPd.png)
 
 ## Pour debug à distance, installation de Rustdesk
