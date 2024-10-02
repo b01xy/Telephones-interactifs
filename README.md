@@ -11,12 +11,7 @@ Système d'exploitation à installer avec Raspberry Pi Imager [selon les instruc
 
 Une fois le système installé et démarré sur la Raspberry Pi connectée à Internet, il faut lancer un terminal et taper les commandes suivantes (le mot de passe est celui de l'utilisateur créé à l'installation, par défaut l'utilisateur est Pi et le mot de passe raspberry) :
 ````
-sudo apt update
-sudo apt upgrade
-sudo apt install puredata pd-ggee pd-zexy pd*cyclone python3-rpi.gpio git htop
-cd ~/Desktop
-git clone https://github.com/b01xy/Telephones-interactifs/
-cd Telephones-interactifs/
+wget https://github.com/b01xy/Telephones-interactifs/blob/main/installTelephones.sh
 chmod +x installTelephones.sh
 ./installTelephones.sh
 ````
