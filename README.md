@@ -20,7 +20,11 @@ chmod +x installTelephones.sh
 En paramètres audio dans Pure Data on doit avoir Menu Media > On choisit Alsa puis dans Paramètres Audio la carte bcm2835 en sortie, on décoche l'entrée, on met 120ms en buffer/délais
 ![param](images/CapturePArametresAudioPd.png)
 
-## Pour debug à distance, installation de Rustdesk
+L'interface graphique au final ressemble à ça :
+
+
+
+## Pour debug à distance, installation de Rustdesk (en option)
 
 ````
 sudo apt install libxdo3 gstreamer1.0-pipewire dpkg
