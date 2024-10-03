@@ -6,9 +6,9 @@ cd ~/Desktop
 rm -rf Telephones-interactifs/
 git clone https://github.com/b01xy/Telephones-interactifs/
 cd Telephones-interactifs
-rm /etc/systemd/system/telephone.service
+sudo rm /etc/systemd/system/telephone.service
 sudo cp telephone.service /etc/systemd/system/telephone.service
-chmod 644 /etc/systemd/system/telephone.service
+sudo chmod 644 /etc/systemd/system/telephone.service
 sudo systemctl enable telephone.service
 sudo systemctl daemon-reload
 sudo systemctl start telephone.service
