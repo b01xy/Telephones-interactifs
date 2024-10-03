@@ -22,7 +22,14 @@ En paramètres audio dans Pure Data on doit avoir Menu Media > On choisit Alsa p
 ![param](images/CapturePArametresAudioPd.png)
 
 L'interface graphique au final ressemble à ça :
+![interface](images/InterfaceTelephones.png)
 
+## Mise en place des 4 séries de téléphones 
+Il suffit de changer le contenu du fichier "numfichierdebut.txt" : en cliquant sur le dossier "Telephones-interactifs" sur le bureau, on peut double-cliquer sur le fichier "numfichierdebut.txt", changer le chiffre et enregistrer puis fermer (CTRL+S CTRL+Q) :
+  * Sur le tél 1 et 2 on met le chiffre 1 dans le fichier 
+  * Sur le tel 3 et 4 on met le chiffre 11 dans le fichier 
+  * Sur le tel 5 et 6 on met le chiffre 21 dans le fichie
+  * Sur le tel 7 et 8 on met le chiffre 31 dans le fichie
 
 
 ## Pour debug à distance, installation de Rustdesk (en option)
