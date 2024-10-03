@@ -11,6 +11,7 @@ Système d'exploitation à installer avec Raspberry Pi Imager [selon les instruc
 
 Une fois le système installé et démarré sur la Raspberry Pi connectée à Internet, il faut lancer un terminal et taper les commandes suivantes (le mot de passe est celui de l'utilisateur créé à l'installation, par défaut l'utilisateur est Pi et le mot de passe raspberry) :
 ````
+rm installTelephones.sh
 wget https://raw.githubusercontent.com/b01xy/Telephones-interactifs/refs/heads/main/installTelephones.sh
 chmod +x installTelephones.sh
 ./installTelephones.sh
