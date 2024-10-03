@@ -1,4 +1,4 @@
-#N canvas 0 36 1024 672 12;
+#N canvas 0 0 1920 992 12;
 #X obj 1 1 cnv 20 1920 1080 empty empty Le\ téléphone\ sonne 20 48 0 52 #fbe1e8 #404040 0;
 #X obj 27 109 cnv 20 500 800 empty empty Toutes\ les\ 3\ minutes 20 28 0 28 #e0e0e0 #404040 0;
 #X obj 542 111 cnv 20 500 800 empty empty Quelqu'un\ décroche 20 28 0 28 #e0e0e0 #404040 0;
@@ -8,7 +8,7 @@
 #X obj 1085 19 loadbang;
 #X obj 1085 45 delay 1000;
 #X text 1560 208 Sur le tel 1 et 2 on y met les 40 On démarre le premier défis à 1 Sur le tel 3 et 4 on y met les 40 On démarre le premier défis à 11 Sur le tel 5 et 6 on y met les 40 On démarre le premier défis à 21 Sur le tel 7 et 8 on y met les 40 On démarre le premier défis à 31;
-#N canvas 0 36 1024 672 interface_telephone 1;
+#N canvas 0 36 1024 672 interface_telephone 0;
 #X floatatom 541 722 4 0 0 0 - - - 0;
 #X obj 606 723 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
 #X obj 30 466 tgl 42 0 empty empty empty 17 7 0 10 #ff0400 #000000 #000000 0 1;
@@ -269,6 +269,6 @@
 #X connect 124 0 123 0;
 #X coords 0 -1 1 1 1500 750 1 5 5;
 #X restore 47 155 pd interface_telephone;
-#X text 625 12 Branchement;
+#X text 625 12 Branchements;
 #X connect 6 0 7 0;
 #X connect 7 0 5 0;
