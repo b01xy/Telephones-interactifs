@@ -31,6 +31,15 @@ Il suffit de changer le contenu du fichier "numfichierdebut.txt" : en cliquant s
   * Sur le tel 5 et 6 on met le chiffre 21 dans le fichie
   * Sur le tel 7 et 8 on met le chiffre 31 dans le fichie
 
+## Debug en local
+Pour tester le relais
+  python ~/Desktop/Telephones-interactifs/relay.py*
+Pour tester le lancement automatique du programme
+  cd ~/Desktop/Telephones-interactifs/
+  ./startTelephones.sh
+Pour tester le lancement automatique au démarrage
+  sudo systemctl status telephone.service
+  sudo systemctl restart telephone.service
 
 ## Pour debug à distance, installation de Rustdesk (en option)
 
