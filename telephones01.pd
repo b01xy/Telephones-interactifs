@@ -1,4 +1,4 @@
-#N canvas 0 0 1920 992 12;
+#N canvas 0 0 1918 991 12;
 #X obj 1 1 cnv 20 1920 1080 empty empty Le\ téléphone\ sonne 20 48 0 52 #fbe1e8 #404040 0;
 #X obj 27 109 cnv 20 500 800 empty empty Toutes\ les\ 3\ minutes 20 28 0 28 #e0e0e0 #404040 0;
 #X obj 542 111 cnv 20 500 800 empty empty Quelqu'un\ décroche 20 28 0 28 #e0e0e0 #404040 0;
@@ -137,6 +137,8 @@
 #X text 1028 352 RANG DE FICHIER LU;
 #X text 1298 204 QUEL PREMIER FICHIER ?;
 #X text 588 302 DÉCROCHÉ ! quand décroché case verte cochée;
+#X obj 611 223 tgl 42 0 empty empty empty 0 -10 0 12 #c6ffc7 #000000 #000000 0 1;
+#X text 654 233 DÉCROCHÉ ! mais ça ne sonne pas !;
 #X connect 2 0 28 0;
 #X connect 3 0 6 0;
 #X connect 3 0 4 0;
@@ -161,6 +163,7 @@
 #X connect 22 0 24 0;
 #X connect 23 0 50 0;
 #X connect 24 0 106 0;
+#X connect 24 0 128 0;
 #X connect 25 0 62 0;
 #X connect 26 0 23 0;
 #X connect 27 0 17 0;
