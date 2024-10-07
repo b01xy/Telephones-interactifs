@@ -33,14 +33,19 @@ Il suffit de changer le contenu du fichier "numfichierdebut.txt" : en cliquant s
 
 ## Debug en local
 Pour tester le relais
-  python ~/Desktop/Telephones-interactifs/relay.py*
+````
+python ~/Desktop/Telephones-interactifs/relay.py
+````
 Pour tester le lancement automatique du programme
-  cd ~/Desktop/Telephones-interactifs/
-  ./startTelephones.sh
+````
+cd ~/Desktop/Telephones-interactifs/
+./startTelephones.sh
+````
 Pour tester le lancement automatique au démarrage
+````
   sudo systemctl status telephone.service
   sudo systemctl restart telephone.service
-
+````
 ## Pour debug à distance, installation de Rustdesk (en option)
 
 ````
