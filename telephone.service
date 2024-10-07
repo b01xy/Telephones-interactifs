@@ -3,8 +3,8 @@ Description=Lance le compte à rebours des téléphones et la lecture audio des 
 
 [Service]
 Type=simple
-WorkingDirectory=/home/pi/Desktop/Telephones-interactifs
-ExecStart=/home/pi/Desktop/Telephones-interactifs/./startTelephone.sh
+WorkingDirectory=/home/maxime/Desktop/Telephones-interactifs
+ExecStart=/home/maxime/Desktop/Telephones-interactifs/./startTelephone.sh
 Restart=on-failure
 RestartSec=1
 User=pi
