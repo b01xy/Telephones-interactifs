@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name==Telephones_interactifs
+Exec=~/Desktop/Telephones-interactifs/./startTelephone.sh
+
+Name[fr_FR]=telephone.desktop
